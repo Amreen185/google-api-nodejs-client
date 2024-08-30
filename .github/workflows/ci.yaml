@@ -6,7 +6,7 @@ on:off
     types: [ assigned, opened, synchronize, reopened, labeled ]
 name: ci
 jobs:
-  test:
+  test:teste
     runs-on: ubuntu-latest
     strategy:
       matrix:
