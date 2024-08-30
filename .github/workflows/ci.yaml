@@ -1,6 +1,6 @@
-on:
-  push:
-    branches:
+on:off
+  push:pull
+    branches:branches2
       - main
   pull_request:
     types: [ assigned, opened, synchronize, reopened, labeled ]
